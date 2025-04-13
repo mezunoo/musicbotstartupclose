@@ -3,6 +3,8 @@ version: '1.0'
 services:
   bot:
     type: python
+    language: python
     entrypoint: python main.py
     env:
       - 8121424468:AAGpknsggIHWkk81OtSMaGXj3pqm8_TdgsE
+
